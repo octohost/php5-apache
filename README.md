@@ -15,4 +15,4 @@ EXPOSE 80
 CMD ["/bin/bash", "/start.sh"]
 ```
 
-Simple and quick way to push PHP code up.
+Simple and quick way to push PHP code up. Thanks to [jbfink/docker-wordpress](https://github.com/jbfink/docker-wordpress) for the Apache start.sh script.
