@@ -7,6 +7,7 @@ RUN a2enmod expires
 RUN a2enmod headers
 
 ADD ./apache2.conf /etc/apache2/apache2.conf
+ADD ./default.conf /etc/apache2/sites-available/000-default.conf
 ADD ./security.conf /etc/apache2/conf-available/security.conf
 ADD ./start.sh /start.sh
 RUN chmod 755 /start.sh
